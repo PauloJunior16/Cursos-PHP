@@ -1,0 +1,16 @@
+{
+    "name": "paulo-webjump/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Paulo Junior - Webjump",
+            "email": "paulo.junior@webjump.com.br"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "symfony/dom-crawler": "^5.1",
+        "symfony/css-selector": "^5.1"
+    }
+}
