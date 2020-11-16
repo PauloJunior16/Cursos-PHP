@@ -2,9 +2,21 @@
 
 class Conta
 {
-    private $cpfTitular;
-    private $nomeTitular;
+    private $titular;
     private $saldo;
+    private static $numeroDeContas = 0;
+
+    public function __construct(Titular $titular)
+    {
+        $this->titular = $titular;
+        $this->saldo = 0;
+        self::$numeroDeContas++;
+    }
+
+    public function __destruct()
+    {
+        self::$numeroDeContas--;
+    }
 
     public function sacar(float $valorASacar)
     {
@@ -33,4 +45,25 @@ class Conta
             $this->sacar($valorATransferir);
             $contaDestino->depositar($valorATransferir);
     }
+
+    public function recuperarSaldo(): float
+    {
+        return $this->saldo;
+    }
+
+    public function recuperaNomeTitular(): string
+    {
+        return $this->titular->recuperaNome();
+    }
+
+    public function recuperaCpfTitular(): string
+    {
+        return $this->titular->recuperaCpf();
+    }
+
+    public function recuperaNumeroDeContas(): int
+    {
+        return self::$numeroDeContas;
+    }
+
 }
