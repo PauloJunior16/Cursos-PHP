@@ -3,5 +3,5 @@
 - Introdução ao PHP :heavy_check_mark:;
 - Avançando com PHP :heavy_check_mark:;
 - Arrays :heavy_check_mark:;
-- PHP Orientado a Objetos :x:;
+- PHP Orientado a Objetos :heavy_check_mark:;
 - PHP Composer :heavy_check_mark:;
