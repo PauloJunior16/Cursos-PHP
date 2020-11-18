@@ -1,7 +1,11 @@
 # Repositorio dos Cursos de PHP do Alura
+#### Status: Concluido-:ballot_box_with_check:  Não Concluido-:negative_squared_cross_mark:
 ## Lista de Cursos:
-- Introdução ao PHP :heavy_check_mark:;
-- Avançando com PHP :heavy_check_mark:;
-- Arrays :heavy_check_mark:;
-- PHP Orientado a Objetos :heavy_check_mark:;
-- PHP Composer :heavy_check_mark:;
+- Introdução ao PHP :ballot_box_with_check:;
+- Avançando com PHP :ballot_box_with_check:;
+- Arrays :ballot_box_with_check:;
+- PHP Orientado a Objetos :ballot_box_with_check:;
+- PHP Composer :ballot_box_with_check:;
+- Avançando com PHP Orientado a Objetos :ballot_box_with_check:;
+- PHP Exceptions: Tratamento de erros :negative_squared_cross_mark:;
+- MVC com PHP: Entenda o padrão Model-View-Controller :negative_squared_cross_mark:;
