@@ -7,5 +7,5 @@
 - PHP Orientado a Objetos :ballot_box_with_check:;
 - PHP Composer :ballot_box_with_check:;
 - Avançando com PHP Orientado a Objetos :ballot_box_with_check:;
-- PHP Exceptions: Tratamento de erros :negative_squared_cross_mark:;
+- PHP Exceptions: Tratamento de erros :ballot_box_with_check:;
 - MVC com PHP: Entenda o padrão Model-View-Controller :negative_squared_cross_mark:;
