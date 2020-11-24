@@ -8,19 +8,8 @@
 </head>
 
 <body>
+
     <div class="container">
         <div class="jumbotron">
-            <h1>Novo curso</h1>
+            <h1> <?= $titulo; ?> </h1>
         </div>
-
-        <form action="">
-            <div class="form-group">
-                <label for="descricao">Descricao</label>
-                <input type="text" id="descricao" name="descricao" class="form-control">
-            </div>
-            <button class="btn btn-primary">Salvar</button>
-        </form>
-    </div>
-</body>
-
-</html>
