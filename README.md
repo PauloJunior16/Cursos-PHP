@@ -9,3 +9,5 @@
 - Avançando com PHP Orientado a Objetos :ballot_box_with_check:;
 - PHP Exceptions: Tratamento de erros :ballot_box_with_check:;
 - MVC com PHP: Entenda o padrão Model-View-Controller :negative_squared_cross_mark:;
+- PHP Refatoração: Boas pŕaticas no seu código :negative_squared_cross_mark:;
+- PHP Xdebug: Ferramenta de debug e profiling :negative_squared_cross_mark:;
