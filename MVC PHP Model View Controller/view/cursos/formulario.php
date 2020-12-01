@@ -7,7 +7,8 @@
                    id="descricao"
                    name="descricao"
                    class="form-control"
-                   value="<?= isset($curso) ? $curso->getDescricao() : ''; ?>">
+                   value="<?= isset($curso) ? $curso->getDescricao() : ''; ?>"
+                   placeholder="Digite a descrição do curso" required>
         </div>
         <button class="btn btn-primary">Salvar</button>
     </form>

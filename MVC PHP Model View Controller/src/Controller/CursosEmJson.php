@@ -30,5 +30,8 @@ class CursosEmJson implements RequestHandlerInterface
             ['Content-Type' => 'application/json'],
             json_encode($cursos)
         );
+
+        var_dump($cursos);
     }
+
 }
