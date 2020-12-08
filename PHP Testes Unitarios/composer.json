@@ -1,0 +1,19 @@
+{
+    "name": "alura/banco",
+    "description": "Projeto para realizar testes de unidade TDD",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Paulo Cesar",
+            "email": "pcjsouza16@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/Model"
+        }
+    }
+}
